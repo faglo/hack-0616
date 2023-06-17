@@ -1,0 +1,26 @@
+.map {
+  :global(.leaflet-control-attribution) {
+    display: none;
+  }
+}
+
+.control {
+  position: absolute;
+  top: 5px;
+  right: 23px;
+  z-index: 1000;
+  background-color: #12141699;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 200px;
+  height: 300px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
