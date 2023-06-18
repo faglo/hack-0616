@@ -1,0 +1,62 @@
+.ddControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent !important;
+  gap: 16px;
+  border: none !important;
+  background: linear-gradient(
+    119.37deg,
+    #ffffff 23.06%,
+    rgba(217, 217, 217, 0) 73.93%
+  ) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #000000;
+  border: none !important;
+}
+
+.root {
+  position: absolute !important;
+  z-index: 1001;
+}
+
+.ddMenu {
+  background-color: transparent !important;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  width: auto !important;
+  overflow-x: visible !important;
+  div {
+    transition: all 0.3s ease-in-out !important;
+    padding-left: 48px;
+    width: 328px;
+    overflow-x: visible !important;
+    background: #000000;
+    box-shadow: 5px 7px 20px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px !important;
+    border-top-left-radius: 0% !important;
+    border-bottom-left-radius: 0% !important;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    border: none !important;
+    &[aria-selected="true"] {
+      background-color: #7f6cff !important;
+      color: #ffffff;
+      width: 410px;
+    }
+    &:hover {
+      background-color: #7f6cff;
+      color: #ffffff;
+      width: 410px;
+    }
+  }
+}

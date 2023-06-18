@@ -1,6 +1,7 @@
 .root {
   display: grid;
   grid-template-columns: 120px 1fr;
+  height: 100vh;
 }
 
 .avatar {
@@ -14,12 +15,13 @@
 .navLinks {
   margin: 0 12px;
   width: 88px;
-  height: 45vh;
   border-radius: 20px;
   background-color: #121416;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: stretch;
+  height: 90vh;
   padding-top: 20px;
 }
 
@@ -27,6 +29,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  height: 94vh;
 }
 
 .decoration {
@@ -41,6 +44,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 24px;
+  flex-shrink: 0;
 }
 
 .content {
@@ -59,9 +63,9 @@
 }
 
 .welcomeText {
-  font-weight: 300;
   font-size: 20px;
   line-height: 26px;
   width: 72px;
   margin-top: auto;
+  font-family: "Pangram";
 }

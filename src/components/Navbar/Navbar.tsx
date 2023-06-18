@@ -11,7 +11,7 @@ const NavItems = (props: {
 }) => (
   <div className={styles.navLinks}>
     {props.links.map((link, index) => (
-      <Link href={link.url}>
+      <Link href={link.url} key={index}>
       <a
         key={index}
         className={styles.navLink}

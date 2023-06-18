@@ -20,7 +20,7 @@ function App() {
   })
 
   return (
-    <div>
+    <>
       <Navbar
         title="My App"
         links={[
@@ -72,7 +72,7 @@ function App() {
           <Map/>
         </Route>
       </Navbar>
-    </div>
+    </>
   )
 }
 

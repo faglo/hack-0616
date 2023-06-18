@@ -1,7 +1,7 @@
 :root {
   line-height: 1.5;
   font-weight: 400;
-
+  height: 100vh;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -12,5 +12,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   margin: 0;
-  font-family: "TT Firs Neue";
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Pangram";
 }
